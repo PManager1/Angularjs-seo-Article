@@ -1,0 +1,113 @@
+<html data-ng-app="App" class="ng-scope"><head>
+    <title>AngularJS SEO Demo</title>
+    <!-- include this if you are not using hashbangs -->
+    <!-- <meta name="fragment" content="!" /> -->
+  <link rel="stylesheet" type="text/css" href="./fonts/fa/css/font-awesome.css"><style type="text/css">
+    .status {
+      color:white;
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      -webkit-transition:all 0.5s linear;
+      padding:15px 50px 15px 70px;
+      color:black;
+      background:white url(graphics/loading.gif) no-repeat 15px center;
+      border-bottom:2px solid #ddd;
+      box-shadow:0 0 5px #999;
+    }
+    .status.ready {
+      opacity:0;
+    }
+    body {
+      background:#ddd;
+      padding-top:50px;
+    }
+    #footer {
+      position:fixed;
+      bottom:0;
+      left:0;
+      right:0;
+      background:black;
+      padding:1em;
+      box-shadow:0 -5px 20px #555;
+    }
+    #footer a {
+      color:silver;
+      text-decoration:none;
+    }
+    #footer .cloud-link {
+      float:right;
+    }
+  </style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style></head>
+  
+  
+  <body data-status="ready" class="">
+    <nav id="main-navigation">
+      <a href="#!/home">Home</a>
+      <a href="#!/videos">Videos</a>
+      <a href="#!/videos/slow">Slow Loading Videos</a>
+    </nav>
+    <div class="status ready" data-ng-class="status">loading...</div>
+    <div data-ng-view=""><div class="videos-feed ng-scope">
+  <h1>Videos</h1>
+  <!-- ngRepeat: video in videos --><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Chris Brown talks Rihanna + Drake on Ebro in the Morning
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    T-Pain: NPR Music Tiny Desk Concert
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Daniel Radcliffe Raps Blackalicious' "Alphabet Aerobics"
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Ex Machina | Official Teaser Trailer HD | A24
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Together | LeBron James
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    5 Scariest Pranks on YouTube
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    The Colbert Report: Gamergate - Anita Sarkeesian
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Get a Special Look at Marvel's "Avengers: Age of Ultron"
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Giants add 2014 Series title to '10, '12
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Пореченков в донецком аэропорту
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Introducing Samsung GALAXY A
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    10 Hours of Walking in NYC as a Woman
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    James Ennis Rises to POSTERIZE Rasual Butler!
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Daniel Radcliffe on Why He's Never Been Trick-or-Treating
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Exclusive Second Preview - Android 5.0 Lollipop on Samsung Galaxy S5
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Top 5 Manchester derby moments | Brick-by-brick
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Sam Smith/Ed Sheeran - Stay With Me (Manchester Albert Hall 29/10/14)
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Dad In A Box
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Chris Christie, Two Year Sandy Anniversary Event, Downtown Belmar, NJ 10-29-14
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    Microsoft Band: Live Healthier
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    The Hunger Games: Mockingjay Part 1 Final Trailer – “Burn”
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    BBM - Yours to Control – "The Dive"
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    How to Jailbreak iOS 8 and 8.1
+  </div><div data-ng-repeat="video in videos" class="ng-scope ng-binding">
+    George R.R. Martin, Amy Poehler and Seth Play Game of Thrones Trivia - Late Night with Seth Meyers
+  </div>
+</div><span class="ng-scope">
+</span></div>
+    <footer id="footer">
+      <a href="https://github.com/yearofmoo-articles/AngularJS-SEO-Article" target="_blank" class="github-link"><span class="icon-github"></span> View Github Repo</a>
+      <a href="http://www.yearofmoo.com/" target="_blank" class="cloud-link"><span class="icon-cloud"></span> Goto Yearofmoo</a>
+    </footer>
+    <script src="./js/angular.min.js"></script> 
+    <script src="./js/application.js"></script> 
+  
+
+</body></html>

@@ -7,6 +7,13 @@ http://192.168.1.105:5757/?ckcachecontrol=1414879182#!/home
 
 
 
+* for  /video/slow  you need to provide  #!  for /  
+
+example:   ./make-snapshot.sh http://192.168.1.105:5757/\#\!/videos\#\!%2Fslow
+
+
+
+
 
 try following commands
 
