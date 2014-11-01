@@ -2,6 +2,14 @@
 
 make sure you have downloaded the file .phantom-runner.js . 
 
+try following commands
+
+./make-snapshot.sh http://192.168.1.105:5757/\#\!/video
+
+./make-snapshot.sh http://192.168.1.105:5757/\#\!/home
+
+
+
 
 
 
