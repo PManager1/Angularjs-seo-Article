@@ -1,6 +1,12 @@
 
 
-make sure you have downloaded the file .phantom-runner.js . 
+* make sure you have downloaded the file .phantom-runner.js . 
+* make sure the url doesnt contain the word  "ckcachecontrol"    
+
+http://192.168.1.105:5757/?ckcachecontrol=1414879182#!/home 
+
+
+
 
 try following commands
 
